@@ -1,0 +1,998 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+      .unzipped-overlay {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffc;
+      }
+
+      .unzipped-overlay__inner {
+        max-width: 500px;
+        margin: 2em auto 0;
+      }
+    </style>
+    <link rel="stylesheet" media="all" href="./../../zz_assets/export.css">
+    <script src="./../../zz_assets/export.js"></script>
+    <title>Basecamp Export</title>
+  </head>
+
+  <body>
+    <main>
+        <header class="position-context centered">
+    <div class="global-back">
+      <a href="./../../-DOUBLE_CLICK_TO_VIEW.html">
+        ‹ <span class="decorated">Home</span>
+</a>    </div>
+
+    <div class="metadata"><small>Exported <time datetime="2020-07-05T12:31:27Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Jul 05, 2020 at 12:31 PM</time></small></div>
+
+      <h3 class="project-name">DITL 樂樂活檢測  X 30</h3>
+
+        <small>我們要重做樂樂活檢測達到30人</small>
+
+      <div class="avatar-group avatar-group--small push_half--top">
+        <a href="./../../ditl-x-30-2803616/people/index.html">
+          <img src="./../../zz_assets/images/avatars/532685.png" title="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" alt="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" width="34" class="avatar"><img src="./../../zz_assets/images/avatars/540970.png" title="Eva Yu  游硯雅, 碩士生 at DITLDESIGN" alt="Eva Yu  游硯雅, 碩士生 at DITLDESIGN" width="34" class="avatar"><img src="./../../zz_assets/images/avatars/7300535.png" title="Meng，肖易萌, 碩士生 at DITLDESIGN" alt="Meng，肖易萌, 碩士生 at DITLDESIGN" width="34" class="avatar"><img src="./../../zz_assets/images/avatars/7645462.png" title="Danyang Wang 王丹陽, 博士生 at DITLDESIGN" alt="Danyang Wang 王丹陽, 博士生 at DITLDESIGN" width="34" class="avatar"><img src="./../../zz_assets/images/avatars/15124632.png" title="Betty 劉家文" alt="Betty 劉家文" width="34" class="avatar"><img src="./../../zz_assets/images/avatars/15468610.png" title="Bess 李宜潔, 成員 at DITLDESIGN" alt="Bess 李宜潔, 成員 at DITLDESIGN" width="34" class="avatar"><img src="./../../zz_assets/images/avatars/15468611.png" title="Violeta 鍾宜汝" alt="Violeta 鍾宜汝" width="34" class="avatar">
+
+          
+</a>      </div>
+
+    <nav class="section-nav section-nav--messages push_half--ends">
+          <a class="section-nav__item section-nav__messages" href="./../../ditl-x-30-2803616/messages/index.html">Messages</a>
+          <a class="section-nav__item section-nav__campfire" href="./../../ditl-x-30-2803616/campfires/campfire-399612511.html">Campfire</a>
+          <a class="section-nav__item section-nav__todos" href="./../../ditl-x-30-2803616/to-do-lists/index.html">To-dos</a>
+          <a class="section-nav__item section-nav__vault" href="./../../ditl-x-30-2803616/docs-and-files/docs-files-399612519.html">Docs &amp; Files</a>
+          <a class="section-nav__item section-nav__questions" href="./../../ditl-x-30-2803616/check-ins/index.html">Check-ins</a>
+          <a class="section-nav__item section-nav__schedule" href="./../../ditl-x-30-2803616/schedules/index.html">Schedule</a>
+          <a class="section-nav__item section-nav__forwards" href="./../../ditl-x-30-2803616/email-forwards/email-forwards-399612520.html">Forwards</a>
+    </nav>
+  </header>
+
+
+<article class="recordable message">
+  <header>
+    <small class="metadata">
+      Posted
+
+      by 鄭雅方
+
+      · <time datetime="2017-08-29T11:57:15Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Aug 29, 2017 at 11:57 AM</time>
+    </small>
+
+    <h1>
+      後測結束設計優化
+      
+    </h1>
+  </header>
+
+  <section>
+    <div class="formatted_content">
+      <div>
+<span style="background-color: rgb(228, 248, 226);">1. 抽獎卷的錯誤提示<br></span><br>
+</div>
+<div>・現有問題：目前抽獎卷的錯誤提示方式（在未填欄位下顯示紅字）對長輩而言不夠清楚，無法了解是哪邊出錯。<br>・優化方式：新增與SurveyCake問卷中一致的紅色警示bar，並將頁面滾動至錯誤或未填寫的欄位，讓長輩能更快注意到錯誤的部分。<br>・優化示意：<a target="_blank" rel="noreferrer" class="autolinked" data-behavior="truncate" href="https://youtu.be/wh0w4VKGGvk">https://youtu.be/wh0w4VKGGvk</a><br><br><span style="background-color: rgb(228, 248, 226);">2. 往下滑提示灰bar</span>
+</div>
+<div>
+<br>・現有問題：長輩會想去按灰色bar、或是在灰色bar附近使用滑動手勢，在ios裝置易不小心觸發控制中心panel。<br>・優化方式：<br><span style="background-color: rgb(255, 240, 219);">「提案A」</span>不處理。經評估，現有呈現方式提示清晰，若進行修改（例如：墊高灰色bar），在手機畫面中可瀏覽、滑動面積將更小。<br><span style="background-color: rgb(255, 240, 219);">「提案B」</span>稍微墊高灰色bar，減少誤觸機率，但會使某些小手機用戶瀏覽範圍變小。<br><span style="background-color: rgb(255, 240, 219);">「提案C」</span>Surveycake問卷中沿用錯誤提示，在使用者選好正確數量的答案後，在上方紅色bar顯示往下滑訊息。landing page依然維持原來的灰bar，此提案可能有不一致的問題，但可以減少在問卷中誤觸的機率。<em>***此提案需與新芽確認技術可行性***</em><br><br>・優化示意：<br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzgyOTU5Nzc_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--1193448d99dec5b8ee445c80912bcd922307110e" content-type="image/png" url="https://preview.3.basecamp.com/3127495/blobs/7cc5606c-8ca3-11e7-a4f0-a0369f6bea8c/previews/full/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-29%20%E4%B8%8B%E5%8D%886.18.31.png" href="https://storage.3.basecamp.com/3127495/blobs/7cc5606c-8ca3-11e7-a4f0-a0369f6bea8c/download/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-29%20%E4%B8%8B%E5%8D%886.18.31.png" filename="螢幕快照 2017-08-29 下午6.18.31.png" filesize="327945" width="1340" height="1148" previewable="true"><div class="attachment attachment--image attachment--png attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52148867-2017-08-29-6-18-31.png">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52148867-2017-08-29-6-18-31.png">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52148867-2017-08-29-6-18-31.png">
+
+          <span class="attachment__name">
+            螢幕快照 2017-08-29 下午6.18.31.png
+            <span data-attr="size" class="attachment__size">
+              320 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment><br><br><span style="background-color: rgb(228, 248, 226);">3. 下一頁按鈕位置</span><br><br>・現有問題：問卷中下一頁按鈕位置過於靠近頁面底部，長輩易不小心點選位於按鈕附近的home鍵，造成填答斷點。<br>・優化方式：將下一頁按鈕位置提高，離底部距離變遠，減少誤觸機率。<br>・優化示意：<br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzgyOTcyNjg_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--c569bb415ac4f4157d34a08c56809e02910f8751" content-type="image/jpeg" url="https://preview.3.basecamp.com/3127495/blobs/f7e3aa1e-8ca4-11e7-9683-a0369f6beb2a/previews/full/4241744_B%E6%8B%B7%E8%B2%9D.jpg" href="https://storage.3.basecamp.com/3127495/blobs/f7e3aa1e-8ca4-11e7-9683-a0369f6beb2a/download/4241744_B%E6%8B%B7%E8%B2%9D.jpg" filename="4241744_B拷貝.jpg" filesize="236313" width="592" height="1000" previewable="true"><div class="attachment attachment--image attachment--jpg attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52150493-4241744_b.jpg">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52150493-4241744_b.jpg">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52150493-4241744_b.jpg">
+
+          <span class="attachment__name">
+            4241744_B拷貝.jpg
+            <span data-attr="size" class="attachment__size">
+              231 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment><br><br><span style="background-color: rgb(228, 248, 226);">4. 操作教學</span><br><br>・現有問題：經後測觀察，長輩對於教學有以下態度（共8位），<br>(1) 沒有看教學，很快跳過---&gt;7位<br> (2) 不知道要幹嘛，愣住---&gt;1位<br>(3) gif的呈現方式，長輩不知道那是影片---&gt;6位<br>結論：此次的受測者，涵蓋科技程度低中至高的長輩，幾乎全部的受測者都不需要看教學，就能順利操作，推測目前介面使用性已提高，教學的必要性大幅降低。另外，科技程度極低、甚至科技程度零的長輩不在此次受測樣本中，由於對科技介面的不熟悉，推測教學有可能對其造成斷點（愣住、不知如何反應、在gif上跟著點按等），且可能難以吸收教學的內容。<br><br>・優化方式：建議將教學拿掉。以下是嘗試過的優化方式：<br>(1) 改為用影片呈現：考量到常看line的長輩，對於點按影片的播放鍵是熟悉的，故嘗試用影片方式呈現；然而目前SurveyCake問卷中只能置入比例固定的16:9影片，此比例在手機上顯示將非常小，不利於觀看（測試問卷：<a target="_blank" rel="noreferrer" class="autolinked" data-behavior="truncate" href="https://65survey.surveycake.com/s/m2GQB">https://65survey.surveycake.com/s/m2GQB</a>）。<br>(2) 改用多張圖片呈現：目前SurveyCake問卷中引言頁一次只能置入一張圖片，呈現內容有限，置入長條形圖片也會被縮小。另外，圖片無法呈現例如「滑動手勢」等動態效果，教學效果有待驗證。<br><br>由於尚沒有更好的優化方式，因此，建議先將目前的教學拿掉，減少可能的斷點。<br><br><span style="background-color: rgb(228, 248, 226);">5. 解法題的麻煩敘述<br></span><br>・現有問題：缺乏引導語、沒有在一屏中呈現，造成部分長輩愣住，不知該如何進行。<br>・優化方式：新增引導語，引導長輩看完後按下一頁繼續、也縮小圖片，盡量讓下一頁按鈕能直接顯示出來。也會再詢問新芽是否有其他節省空間的方式（例如：目前播放按鈕新芽是做float，為了不擋到字，字上方有很多空白很佔空間，需要確認是否能將字靠右，減少上方空白）。<br>・優化示意：<br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzgzMDA0NjQ_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--da37f9d4b7dc72035919a60006e99da062b7aef8" content-type="image/png" url="https://preview.3.basecamp.com/3127495/blobs/7b9bb248-8caa-11e7-8bbe-a0369f6daf77/previews/full/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-29%20%E4%B8%8B%E5%8D%887.08.44.png" href="https://storage.3.basecamp.com/3127495/blobs/7b9bb248-8caa-11e7-8bbe-a0369f6daf77/download/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-29%20%E4%B8%8B%E5%8D%887.08.44.png" filename="螢幕快照 2017-08-29 下午7.08.44.png" filesize="256269" width="678" height="1212" previewable="true"><div class="attachment attachment--image attachment--png attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52154617-2017-08-29-7-08-44.png">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52154617-2017-08-29-7-08-44.png">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52154617-2017-08-29-7-08-44.png">
+
+          <span class="attachment__name">
+            螢幕快照 2017-08-29 下午7.08.44.png
+            <span data-attr="size" class="attachment__size">
+              250 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment><span style="background-color: rgb(228, 248, 226);">6. 桌面版本的B-b頁面調整</span><br><br>・現有問題：目前桌面版B-b設計，易使長輩沒看到獎項就按「開始填寫」。<br>・優化方式：將「開始填寫」按鈕固定浮動於頁面下方，讓長輩進入畫面能一眼看到獎項。<br>・優化示意： <br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzgzMDExNjI_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--d66b84cb122370b4368c17f89cbee20d1d42effa" content-type="image/png" url="https://preview.3.basecamp.com/3127495/blobs/e60c4204-8cab-11e7-b7d6-a0369f6bea8c/previews/full/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-29%20%E4%B8%8B%E5%8D%887.18.07.png" href="https://storage.3.basecamp.com/3127495/blobs/e60c4204-8cab-11e7-b7d6-a0369f6bea8c/download/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-29%20%E4%B8%8B%E5%8D%887.18.07.png" filename="螢幕快照 2017-08-29 下午7.18.07.png" filesize="255747" width="1382" height="916" previewable="true"><div class="attachment attachment--image attachment--png attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52155553-2017-08-29-7-18-07.png">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52155553-2017-08-29-7-18-07.png">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52155553-2017-08-29-7-18-07.png">
+
+          <span class="attachment__name">
+            螢幕快照 2017-08-29 下午7.18.07.png
+            <span data-attr="size" class="attachment__size">
+              250 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment><br><span style="background-color: rgb(228, 248, 226);">7. 康健小叮嚀頁面</span><br><br>・現有問題：多數長者無法將小叮嚀與自己的填答結果連結，而選擇忽略。<br>・優化方式：新增「以下是根據您的填答結果，《康健》雜誌提供的生活小叮嚀」提示語，加強小叮嚀與填答結果連結；另外也將客服電話、email放置一起。<br>・優化示意： <br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzgzMDM2ODk_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--40e58eeb44442c89c5c93fef28e0f790fec373e0" content-type="image/png" url="https://preview.3.basecamp.com/3127495/blobs/fdd4307c-8cb0-11e7-8c1e-a0369f6beb2a/previews/full/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-29%20%E4%B8%8B%E5%8D%887.54.25.png" href="https://storage.3.basecamp.com/3127495/blobs/fdd4307c-8cb0-11e7-8c1e-a0369f6beb2a/download/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-29%20%E4%B8%8B%E5%8D%887.54.25.png" filename="螢幕快照 2017-08-29 下午7.54.25.png" filesize="227651" width="602" height="1220" previewable="true"><div class="attachment attachment--image attachment--png attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52158781-2017-08-29-7-54-25.png">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52158781-2017-08-29-7-54-25.png">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52158781-2017-08-29-7-54-25.png">
+
+          <span class="attachment__name">
+            螢幕快照 2017-08-29 下午7.54.25.png
+            <span data-attr="size" class="attachment__size">
+              222 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment>
+</div>
+    </div>
+  </section>
+
+    <div class="push--ends">
+      <div class="boosts avatar-group--tiny push--bottom">
+  <div class="boost">
+  <img src="./../../zz_assets/images/avatars/534044.png" title="Zen 育涓 張, 產品經理 at DITLDESIGN" alt="Zen 育涓 張, 產品經理 at DITLDESIGN" width="64" class="avatar boost__avatar">
+
+  <span class="boost__content txt--nowrap">
+    👏
+  </span>
+</div>
+<div class="boost">
+  <img src="./../../zz_assets/images/avatars/540970.png" title="Eva Yu  游硯雅, 碩士生 at DITLDESIGN" alt="Eva Yu  游硯雅, 碩士生 at DITLDESIGN" width="64" class="avatar boost__avatar">
+
+  <span class="boost__content txt--nowrap">
+    👏
+  </span>
+</div>
+<div class="boost">
+  <img src="./../../zz_assets/images/avatars/13664709.png" title="Claudia Pan, 數據分析師 at 龍吟研論" alt="Claudia Pan, 數據分析師 at 龍吟研論" width="64" class="avatar boost__avatar">
+
+  <span class="boost__content txt--nowrap">
+    👏
+  </span>
+</div>
+
+</div>
+
+    </div>
+
+  <hr class="divider divider--full-width push--top">
+
+  <h4 class="flush--top">Comments &amp; Events</h4>
+
+  <section id="comments" class="thread thread--comments">
+    <div class="thread__entries">
+          <article data-recording-id="656739766" data-creator-id="534044" data-url="/3127495/buckets/2803616/comments/656739766" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NTY3Mzk3NjY" data-parent-id="654992061" class="thread-entry" id="recording_656739766"><span class="anchor recordable__anchor" id="__recording_656739766"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/534044.png" title="Zen 育涓 張, 產品經理 at DITLDESIGN" alt="Zen 育涓 張, 產品經理 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          Zen 育涓 張<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">產品經理</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>雅方，awesome job! <br>1.示意好像是youtube 上的教學影片？可以請你check 一下嗎？ 謝謝</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-08-30T02:12:59Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Aug 30, 2017 at  2:12 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="656745935" data-creator-id="3798968" data-url="/3127495/buckets/2803616/comments/656745935" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NTY3NDU5MzU" data-parent-id="654992061" class="thread-entry" id="recording_656745935"><span class="anchor recordable__anchor" id="__recording_656745935"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/3798968.png" title="鄭雅方, 資深設計師 at DITLDESIGN" alt="鄭雅方, 資深設計師 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          鄭雅方<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">資深設計師</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>已更新連結～</div>
+    </div>
+
+      <div class="push_half--top">
+        <div class="boosts avatar-group--tiny push--bottom">
+  <div class="boost">
+  <img src="./../../zz_assets/images/avatars/534044.png" title="Zen 育涓 張, 產品經理 at DITLDESIGN" alt="Zen 育涓 張, 產品經理 at DITLDESIGN" width="64" class="avatar boost__avatar">
+
+  <span class="boost__content txt--nowrap">
+    👏
+  </span>
+</div>
+
+</div>
+
+      </div>
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-08-30T02:22:22Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Aug 30, 2017 at  2:22 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="657043235" data-creator-id="534044" data-url="/3127495/buckets/2803616/comments/657043235" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NTcwNDMyMzU" data-parent-id="654992061" class="thread-entry" id="recording_657043235"><span class="anchor recordable__anchor" id="__recording_657043235"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/534044.png" title="Zen 育涓 張, 產品經理 at DITLDESIGN" alt="Zen 育涓 張, 產品經理 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          Zen 育涓 張<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">產品經理</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>
+<bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSInZ2lkOi8vYmMzL1BlcnNvbi81MzI2ODU_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--f023cab55120d91a74030485ff99f160d28f62cf" content-type="application/vnd.basecamp.mention"><bc-mention class="mentionable-person">
+  <img src="./../../zz_assets/images/avatars/532685.png" title="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" alt="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" width="20" class="avatar">
+  Hsien-Hui
+</bc-mention></bc-attachment>  請老師有空看看我們的優化方向，若內部達成共識，我將會提給Ccc 歐。謝謝！</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-08-30T09:30:14Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Aug 30, 2017 at  9:30 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="657086212" data-creator-id="540970" data-url="/3127495/buckets/2803616/comments/657086212" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NTcwODYyMTI" data-parent-id="654992061" class="thread-entry" id="recording_657086212"><span class="anchor recordable__anchor" id="__recording_657086212"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/540970.png" title="Eva Yu  游硯雅, 碩士生 at DITLDESIGN" alt="Eva Yu  游硯雅, 碩士生 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          Eva Yu  游硯雅<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">碩士生</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>現有需求題＆麻煩題插圖位置：<br><a href="https://drive.google.com/drive/u/1/folders/0B2co2MdlTZR_Z1QtQ180Xy1rRlE" target="_blank" rel="noreferrer">https://drive.google.com/drive/u/1/folders/0B2co2MdlTZR_Z1QtQ180Xy1rRlE</a><br><br>ccc 建議回饋：<br>左圖：是否可以改為“搭乘公車,火車/或捷運”的樣式？ 而不是一個人坐在車內看起來像是開車。 <br>右圖：有機會把開車和騎車呈現在同一畫面嗎？ （長輩們的思想比較單純）<br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzg0MzI1ODY_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--33ee7fa945b212cc763f60427adbed1befc55e04" content-type="image/png" url="https://preview.3.basecamp.com/3127495/blobs/7553bc9e-8d6a-11e7-ae01-a0369f6daf77/previews/full/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-25%20%E4%B8%8A%E5%8D%8811.58.01%20(1).png" href="https://storage.3.basecamp.com/3127495/blobs/7553bc9e-8d6a-11e7-ae01-a0369f6daf77/download/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-25%20%E4%B8%8A%E5%8D%8811.58.01%20(1).png" filename="螢幕快照 2017-08-25 上午11.58.01 (1).png" filesize="364500" width="1744" height="680" previewable="true"><div class="attachment attachment--image attachment--png attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52338440-2017-08-25-11-58-01-1.png">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52338440-2017-08-25-11-58-01-1.png">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52338440-2017-08-25-11-58-01-1.png">
+
+          <span class="attachment__name">
+            螢幕快照 2017-08-25 上午11.58.01 (1).png
+            <span data-attr="size" class="attachment__size">
+              356 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment><br>以下為兩張插圖優化：<br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzg0MzM4NDc_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--f266becc0b2e125ffb96d05689c6f47fbcc76307" content-type="image/png" url="https://preview.3.basecamp.com/3127495/blobs/277dbe40-8d6d-11e7-9d52-a0369f6daf77/previews/full/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-30%20%E4%B8%8B%E5%8D%886.21.41.png" href="https://storage.3.basecamp.com/3127495/blobs/277dbe40-8d6d-11e7-9d52-a0369f6daf77/download/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-30%20%E4%B8%8B%E5%8D%886.21.41.png" filename="螢幕快照 2017-08-30 下午6.21.41.png" filesize="279264" width="1596" height="742" previewable="true"><div class="attachment attachment--image attachment--png attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52340151-2017-08-30-6-21-41.png">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52340151-2017-08-30-6-21-41.png">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52340151-2017-08-30-6-21-41.png">
+
+          <span class="attachment__name">
+            螢幕快照 2017-08-30 下午6.21.41.png
+            <span data-attr="size" class="attachment__size">
+              273 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzg0MzM4MzE_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--b30f4941ff1c89d5eb0776da5b46deefaa758057" content-type="image/jpeg" url="https://preview.3.basecamp.com/3127495/blobs/1def0e06-8d6d-11e7-94a4-a0369f6daf77/previews/full/%E5%AE%89%E5%85%A8%E9%A8%8E%E8%BB%8A%E9%96%8B%E8%BB%8A.jpg" href="https://storage.3.basecamp.com/3127495/blobs/1def0e06-8d6d-11e7-94a4-a0369f6daf77/download/%E5%AE%89%E5%85%A8%E9%A8%8E%E8%BB%8A%E9%96%8B%E8%BB%8A.jpg" filename="安全騎車開車.jpg" filesize="421463" width="2085" height="2084" previewable="true"><div class="attachment attachment--image attachment--jpg attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52340129-.jpg">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52340129-.jpg">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52340129-.jpg">
+
+          <span class="attachment__name">
+            安全騎車開車.jpg
+            <span data-attr="size" class="attachment__size">
+              412 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment><br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzg0MzIxOTI_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--38bf1052a15cbdfc43b89bd5178937f8771c6968" content-type="image/jpeg" url="https://preview.3.basecamp.com/3127495/blobs/9814d0a2-8d69-11e7-be00-a0369f740e00/previews/full/%E6%96%B9%E4%BE%BF%E5%A4%A7%E7%9C%BE%E9%81%8B%E8%BC%B8.jpg" href="https://storage.3.basecamp.com/3127495/blobs/9814d0a2-8d69-11e7-be00-a0369f740e00/download/%E6%96%B9%E4%BE%BF%E5%A4%A7%E7%9C%BE%E9%81%8B%E8%BC%B8.jpg" filename="方便大眾運輸.jpg" filesize="85083" width="500" height="500" previewable="true"><div class="attachment attachment--image attachment--jpg attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52337918-.jpg">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52337918-.jpg">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52337918-.jpg">
+
+          <span class="attachment__name">
+            方便大眾運輸.jpg
+            <span data-attr="size" class="attachment__size">
+              83.1 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment>
+</div>
+    </div>
+
+      <div class="push_half--top">
+        <div class="boosts avatar-group--tiny push--bottom">
+  <div class="boost">
+  <img src="./../../zz_assets/images/avatars/13664709.png" title="Claudia Pan, 數據分析師 at 龍吟研論" alt="Claudia Pan, 數據分析師 at 龍吟研論" width="64" class="avatar boost__avatar">
+
+  <span class="boost__content txt--nowrap">
+    👏
+  </span>
+</div>
+
+</div>
+
+      </div>
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-08-30T10:16:22Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Aug 30, 2017 at 10:16 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="662656493" data-creator-id="532685" data-url="/3127495/buckets/2803616/comments/662656493" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjI2NTY0OTM" data-parent-id="654992061" class="thread-entry" id="recording_662656493"><span class="anchor recordable__anchor" id="__recording_662656493"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/532685.png" title="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" alt="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          Hsien-Hui Tang 唐玄輝<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">總監</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>雅方<br><br>Great Job~<br>是否可以把問題部分補上螢幕照片？方便我掌握問題的核心。<br>如果可以把整個文件轉到keynote或是page，我方便標註。<br><br>唐玄輝</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-03T01:31:41Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 03, 2017 at  1:31 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="662657943" data-creator-id="532685" data-url="/3127495/buckets/2803616/comments/662657943" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjI2NTc5NDM" data-parent-id="654992061" class="thread-entry" id="recording_662657943"><span class="anchor recordable__anchor" id="__recording_662657943"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/532685.png" title="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" alt="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          Hsien-Hui Tang 唐玄輝<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">總監</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>小雞的圖看起來不錯<br>情緒有辦法顯示嗎？ 方便用開心，安全用...<br>如果有困難，目前版本可以</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-03T01:37:59Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 03, 2017 at  1:37 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="662805065" data-creator-id="3798968" data-url="/3127495/buckets/2803616/comments/662805065" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjI4MDUwNjU" data-parent-id="654992061" class="thread-entry" id="recording_662805065"><span class="anchor recordable__anchor" id="__recording_662805065"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/3798968.png" title="鄭雅方, 資深設計師 at DITLDESIGN" alt="鄭雅方, 資深設計師 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          鄭雅方<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">資深設計師</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div> <bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSInZ2lkOi8vYmMzL1BlcnNvbi81MzI2ODU_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--f023cab55120d91a74030485ff99f160d28f62cf" content-type="application/vnd.basecamp.mention"><bc-mention class="mentionable-person">
+  <img src="./../../zz_assets/images/avatars/532685.png" title="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" alt="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" width="20" class="avatar">
+  Hsien-Hui
+</bc-mention></bc-attachment> 老師，這是page版本，已補上問題截圖。<br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzg4NDcwMzg_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--841228fd380e13aa86e375dca6b2d65e36170756" content-type="application/vnd.apple.pages" url="https://preview.3.basecamp.com/3127495/blobs/009794c8-908c-11e7-9a23-a0369f740e00/previews/full/%E6%A8%82%E6%A8%82%E6%B4%BB%E5%BE%8C%E6%B8%AC%E8%A8%AD%E8%A8%88%E5%84%AA%E5%8C%96.pages" href="https://storage.3.basecamp.com/3127495/blobs/009794c8-908c-11e7-9a23-a0369f740e00/download/%E6%A8%82%E6%A8%82%E6%B4%BB%E5%BE%8C%E6%B8%AC%E8%A8%AD%E8%A8%88%E5%84%AA%E5%8C%96.pages" filename="樂樂活後測設計優化.pages" filesize="3232094" previewable="false"><div class="attachment attachment--file attachment--pages attachment--exported">
+
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/52906354-.pages">
+          <span class="attachment__icon">
+            <img src="./../../zz_assets/images/file-types/pages.png">
+          </span>
+
+          <span class="attachment__name">
+            樂樂活後測設計優化.pages
+            <span data-attr="size" class="attachment__size">
+              3.08 MB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment>
+</div>
+    </div>
+
+      <div class="push_half--top">
+        <div class="boosts avatar-group--tiny push--bottom">
+  <div class="boost">
+  <img src="./../../zz_assets/images/avatars/534044.png" title="Zen 育涓 張, 產品經理 at DITLDESIGN" alt="Zen 育涓 張, 產品經理 at DITLDESIGN" width="64" class="avatar boost__avatar">
+
+  <span class="boost__content txt--nowrap">
+    👏
+  </span>
+</div>
+
+</div>
+
+      </div>
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-03T09:42:32Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 03, 2017 at  9:42 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="665067470" data-creator-id="532685" data-url="/3127495/buckets/2803616/comments/665067470" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjUwNjc0NzA" data-parent-id="654992061" class="thread-entry" id="recording_665067470"><span class="anchor recordable__anchor" id="__recording_665067470"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/532685.png" title="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" alt="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          Hsien-Hui Tang 唐玄輝<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">總監</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>後側的問題就只有這些？<br>只有修改兩個地方。<br> <a target="_blank" rel="noreferrer" class="autolinked" data-behavior="truncate" href="https://www.dropbox.com/s/ymbf3xr64gz44km/2017.09.03%20%E6%A8%82%E6%A8%82%E6%B4%BB%E5%BE%8C%E6%B8%AC%E8%A8%AD%E8%A8%88%E5%84%AA%E5%8C%96.pages?dl=0">https://www.dropbox.com/s/ymbf3xr64gz44km/2017.09.03%20%E6%A8%82%E6%A8%82%E6%B4%BB%E5%BE%8C%E6%B8%AC%E8%A8%AD%E8%A8%88%E5%84%AA%E5%8C%96.pages?dl=0</a>
+</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-05T14:43:47Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 05, 2017 at  2:43 PM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="665084428" data-creator-id="3798968" data-url="/3127495/buckets/2803616/comments/665084428" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjUwODQ0Mjg" data-parent-id="654992061" class="thread-entry" id="recording_665084428"><span class="anchor recordable__anchor" id="__recording_665084428"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/3798968.png" title="鄭雅方, 資深設計師 at DITLDESIGN" alt="鄭雅方, 資深設計師 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          鄭雅方<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">資深設計師</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>老師：<br><br>1. 墊高就是讓提示bar距離底部遠一點，這樣如果有長輩想去按、或在上面滑動，比較不會觸發控制中心panel。<br><br>原本是這樣：<br><br>灰色的『作答完滑到底』貼齊頁面底部。<br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzg5ODg5OTY_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--de2e43778f3246e0976ffbe9a5dddfe169078cfa" content-type="image/png" url="https://preview.3.basecamp.com/3127495/blobs/2bcdef98-9249-11e7-aabd-a0369f6beabe/previews/full/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-09-05%20%E4%B8%8B%E5%8D%8810.46.48.png" href="https://storage.3.basecamp.com/3127495/blobs/2bcdef98-9249-11e7-aabd-a0369f6beabe/download/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-09-05%20%E4%B8%8B%E5%8D%8810.46.48.png" filename="螢幕快照 2017-09-05 下午10.46.48.png" filesize="117725" width="598" height="880" previewable="true"><div class="attachment attachment--image attachment--png attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/53101963-2017-09-05-10-46-48.png">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/53101963-2017-09-05-10-46-48.png">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/53101963-2017-09-05-10-46-48.png">
+
+          <span class="attachment__name">
+            螢幕快照 2017-09-05 下午10.46.48.png
+            <span data-attr="size" class="attachment__size">
+              115 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment>墊高是這樣：<br><br>灰色的『作答完滑到底』到頁面底部新增一小段空白。<br><br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzg5ODkwNzA_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--afac115cd1d117ec8b322ccdf54204031ee676fc" content-type="image/png" url="https://preview.3.basecamp.com/3127495/blobs/3c724542-9249-11e7-99fc-a0369f6beaad/previews/full/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-09-05%20%E4%B8%8B%E5%8D%8810.46.53.png" href="https://storage.3.basecamp.com/3127495/blobs/3c724542-9249-11e7-99fc-a0369f6beaad/download/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-09-05%20%E4%B8%8B%E5%8D%8810.46.53.png" filename="螢幕快照 2017-09-05 下午10.46.53.png" filesize="132441" width="454" height="810" previewable="true"><div class="attachment attachment--image attachment--png attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/53102085-2017-09-05-10-46-53.png">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/53102085-2017-09-05-10-46-53.png">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/53102085-2017-09-05-10-46-53.png">
+
+          <span class="attachment__name">
+            螢幕快照 2017-09-05 下午10.46.53.png
+            <span data-attr="size" class="attachment__size">
+              129 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment>
+</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-05T14:48:58Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 05, 2017 at  2:48 PM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="665090068" data-creator-id="532685" data-url="/3127495/buckets/2803616/comments/665090068" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjUwOTAwNjg" data-parent-id="654992061" class="thread-entry" id="recording_665090068"><span class="anchor recordable__anchor" id="__recording_665090068"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/532685.png" title="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" alt="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          Hsien-Hui Tang 唐玄輝<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">總監</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>大家<br><br>請整個看過basecamp ccc有提出的問題都盡量回應。<br><br>zen<br><br>問一下Alex，是否可以協助安裝hotjar，可以做更細膩的用戶體驗檢測。</div>
+    </div>
+
+      <div class="push_half--top">
+        <div class="boosts avatar-group--tiny push--bottom">
+  <div class="boost">
+  <img src="./../../zz_assets/images/avatars/534044.png" title="Zen 育涓 張, 產品經理 at DITLDESIGN" alt="Zen 育涓 張, 產品經理 at DITLDESIGN" width="64" class="avatar boost__avatar">
+
+  <span class="boost__content txt--nowrap">
+    👏
+  </span>
+</div>
+
+</div>
+
+      </div>
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-05T14:51:02Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 05, 2017 at  2:51 PM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="665092852" data-creator-id="3798968" data-url="/3127495/buckets/2803616/comments/665092852" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjUwOTI4NTI" data-parent-id="654992061" class="thread-entry" id="recording_665092852"><span class="anchor recordable__anchor" id="__recording_665092852"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/3798968.png" title="鄭雅方, 資深設計師 at DITLDESIGN" alt="鄭雅方, 資深設計師 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          鄭雅方<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">資深設計師</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>2. 以下是根據您的填答結果 是否要更清楚？<br><br>目前因為技術限制，沒辦法把長輩填答的答案帶入這一頁，所以會先建議用「以下是根據您的填答結果，提供的小叮嚀」。<br><br>如果之後沒有此限制，可能可以是「您剛剛選擇了『不知道怎樣吃才營養，又不會過量』的麻煩，以下是給您的小叮嚀」。<br><br>老師說的更清楚是這個意思嗎？</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-05T14:51:57Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 05, 2017 at  2:51 PM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="665150682" data-creator-id="532685" data-url="/3127495/buckets/2803616/comments/665150682" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjUxNTA2ODI" data-parent-id="654992061" class="thread-entry" id="recording_665150682"><span class="anchor recordable__anchor" id="__recording_665150682"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/532685.png" title="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" alt="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          Hsien-Hui Tang 唐玄輝<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">總監</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>以下是根據您的填答結果  這一行字是否要放大，或是換色，讓他更清楚？</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-05T15:08:51Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 05, 2017 at  3:08 PM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="666478254" data-creator-id="3798968" data-url="/3127495/buckets/2803616/comments/666478254" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjY0NzgyNTQ" data-parent-id="654992061" class="thread-entry" id="recording_666478254"><span class="anchor recordable__anchor" id="__recording_666478254"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/3798968.png" title="鄭雅方, 資深設計師 at DITLDESIGN" alt="鄭雅方, 資深設計師 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          鄭雅方<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">資深設計師</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>這一頁已經使用了很多顏色，所以可考慮放大，並增加間距。<br><br><bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSItZ2lkOi8vYmMzL0F0dGFjaG1lbnQvMzkxMDgxNDY_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--8db5f796b28ec7c854d2a2aa2d3d5163a435acac" content-type="image/png" url="https://preview.3.basecamp.com/3127495/blobs/a4df69dc-929b-11e7-8a1c-a0369f6beb07/previews/full/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-09-05%20%E4%B8%8B%E5%8D%8811.12.46.png" href="https://storage.3.basecamp.com/3127495/blobs/a4df69dc-929b-11e7-8a1c-a0369f6beb07/download/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-09-05%20%E4%B8%8B%E5%8D%8811.12.46.png" filename="螢幕快照 2017-09-05 下午11.12.46.png" filesize="213535" width="568" height="1198" previewable="true"><div class="attachment attachment--image attachment--png attachment--preview attachment--exported">
+    <a class="attachment__link unstyled" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/53263176-2017-09-05-11-12-46.png">
+      <div class="attachment--frame">
+        <img src="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/53263176-2017-09-05-11-12-46.png">
+      </div>
+</a>
+  <span class="attachment__details">
+    <div class="attachment__caption">
+      <a class="unstyled attachment__link" target="_blank" href="./../../ditl-x-30-2803616/all-files-images-pdfs-spreadsheets-etc/53263176-2017-09-05-11-12-46.png">
+
+          <span class="attachment__name">
+            螢幕快照 2017-09-05 下午11.12.46.png
+            <span data-attr="size" class="attachment__size">
+              209 KB • <span class="decorated">Download</span>
+            </span>
+          </span>
+</a>    </div>
+  </span>
+</div></bc-attachment>
+</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-06T00:38:08Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 06, 2017 at 12:38 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="666618957" data-creator-id="534044" data-url="/3127495/buckets/2803616/comments/666618957" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjY2MTg5NTc" data-parent-id="654992061" class="thread-entry" id="recording_666618957"><span class="anchor recordable__anchor" id="__recording_666618957"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/534044.png" title="Zen 育涓 張, 產品經理 at DITLDESIGN" alt="Zen 育涓 張, 產品經理 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          Zen 育涓 張<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">產品經理</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>
+<bc-attachment sgid="BAh7CEkiCGdpZAY6BkVUSSInZ2lkOi8vYmMzL1BlcnNvbi81MzI2ODU_ZXhwaXJlc19pbgY7AFRJIgxwdXJwb3NlBjsAVEkiD2F0dGFjaGFibGUGOwBUSSIPZXhwaXJlc19hdAY7AFQw--f023cab55120d91a74030485ff99f160d28f62cf" content-type="application/vnd.basecamp.mention"><bc-mention class="mentionable-person">
+  <img src="./../../zz_assets/images/avatars/532685.png" title="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" alt="Hsien-Hui Tang 唐玄輝, 總監 at DITLDESIGN" width="20" class="avatar">
+  Hsien-Hui
+</bc-mention></bc-attachment> : 午安老師，1.您看到的這7個設計決策建議 <span style="color: rgb(185, 94, 6);">已包含ccc回饋和DITL 後測的內容，會再加上amy+別老師提的語音選項問題。<br></span><span style="color: rgb(102, 102, 102);">2. 已與Alex詢問</span>hotjar安裝，等待回覆中。<span style="color: rgb(185, 94, 6);"><br></span><br>
+</div>
+<div></div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-06T03:25:39Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 06, 2017 at  3:25 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 5 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="666832447" data-creator-id="8968801" data-url="/3127495/buckets/2803616/comments/666832447" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NjY4MzI0NDc" data-parent-id="654992061" class="thread-entry" id="recording_666832447"><span class="anchor recordable__anchor" id="__recording_666832447"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/8968801.png" title="李竺姮, 營運總監 at 龍吟研論" alt="李竺姮, 營運總監 at 龍吟研論" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          李竺姮<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">營運總監</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>真的很棒耶，請問預計何時可有更新版? <br>另外， 提一個小建議，在進系統前的語音選擇，多了一個選項"我都不需要" 其實占了版面空間，讓一屏無法實現，問卷首頁的"唸給你聽"的語音選單設計，比較乾淨。好奇當 時，多加"我都不需要"的原因是什麼呢?       </div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-06T08:37:48Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 06, 2017 at  8:37 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 6 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="668851594" data-creator-id="3798968" data-url="/3127495/buckets/2803616/comments/668851594" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82Njg4NTE1OTQ" data-parent-id="654992061" class="thread-entry" id="recording_668851594"><span class="anchor recordable__anchor" id="__recording_668851594"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/3798968.png" title="鄭雅方, 資深設計師 at DITLDESIGN" alt="鄭雅方, 資深設計師 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          鄭雅方<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">資深設計師</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>關於語言選擇，當初的設計考量是：有部分長輩會認為自己不需要語音功能，如果讓他們一定要在三個語言內選擇，有點強迫中獎的感覺，所以新增「我不需要」按鈕。<br><br>雖然在實際的狀況中，即使選了語言，不去按「播放」就不會有聲音，但是未必所有長輩都能理解這一點；因此我們放入這個選項，讓長輩感覺更有主控性、對系統有控制感。</div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-07T08:02:15Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 07, 2017 at  8:02 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 6 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="670552854" data-creator-id="8968801" data-url="/3127495/buckets/2803616/comments/670552854" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NzA1NTI4NTQ" data-parent-id="654992061" class="thread-entry" id="recording_670552854"><span class="anchor recordable__anchor" id="__recording_670552854"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/8968801.png" title="李竺姮, 營運總監 at 龍吟研論" alt="李竺姮, 營運總監 at 龍吟研論" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          李竺姮<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">營運總監</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>可惜的是，選項中我不需要沒有辦法被統計，不知道此顆按鈕的有效性，倒是增加了某部分長輩的操作困擾，這種trade-off有一好沒有兩好的狀況，設計團隊怎麼看。<br>好奇問: 1 )  主控性、對系統有控制感的期待有達到嗎?  2)選擇出現兩次，選項設計不一致，雖然每一個人只會看到一種版本， 這個不一致性的設計思考為何?<br>我們會被問到，因為有人或志工協助操作會發現差異。<br>AMY         </div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-08T00:37:41Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 08, 2017 at 12:37 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 6 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="670578265" data-creator-id="3798968" data-url="/3127495/buckets/2803616/comments/670578265" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NzA1NzgyNjU" data-parent-id="654992061" class="thread-entry" id="recording_670578265"><span class="anchor recordable__anchor" id="__recording_670578265"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/3798968.png" title="鄭雅方, 資深設計師 at DITLDESIGN" alt="鄭雅方, 資深設計師 at DITLDESIGN" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          鄭雅方<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">資深設計師</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>・關於「不一致」的部分<br><br>第一種狀況是使用者主動去按「唸給你聽」按鈕時，這個狀況我們假設使用者可能是需要這個功能、或對這個功能有興趣，才會去按那個按鈕，此時使用者是「主動」的，因此要他們選擇一個語言是比較合理的。<br><br>第二種狀況是我們強制出現一個題目，讓使用者選擇語言，此時無論對這個功能有無需要的使用者都必須從中選擇，此時使用者是「被動」的，因此我們才加入一個「我不需要」按鈕。<br><br>以上是設計時的考量。<br><br>・關於「主控性、對系統的控制感期待有達到嗎」<br><br>這部分我們沒有辦法說有、或沒有，這邊的設計決策有點像是在抽獎卷那邊，保留一個「不參加抽獎」的自由，在沒有缺點的情況下，我們會認為多一點自由度是好的。然而，目前從龍吟多場活動觀察的角度，發現因為裝置差異等原因，造成的困擾多於助益，我們會覺得拿掉也可以喔。</div>
+    </div>
+
+      <div class="push_half--top">
+        <div class="boosts avatar-group--tiny push--bottom">
+  <div class="boost">
+  <img src="./../../zz_assets/images/avatars/534044.png" title="Zen 育涓 張, 產品經理 at DITLDESIGN" alt="Zen 育涓 張, 產品經理 at DITLDESIGN" width="64" class="avatar boost__avatar">
+
+  <span class="boost__content txt--nowrap">
+    👏
+  </span>
+</div>
+
+</div>
+
+      </div>
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-08T01:21:59Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 08, 2017 at  1:21 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 6 people
+          </span>
+      </small>
+    </div>
+</article>
+    <article data-recording-id="670748360" data-creator-id="8968801" data-url="/3127495/buckets/2803616/comments/670748360" data-readable-identifier="Z2lkOi8vYmMzL1JlY29yZGluZy82NzA3NDgzNjA" data-parent-id="654992061" class="thread-entry" id="recording_670748360"><span class="anchor recordable__anchor" id="__recording_670748360"></span>
+    <header class="thread-entry__header">
+      <img src="./../../zz_assets/images/avatars/8968801.png" title="李竺姮, 營運總監 at 龍吟研論" alt="李竺姮, 營運總監 at 龍吟研論" width="48" class="avatar thread-entry__avatar">
+
+        <strong class="thread-entry__author">
+          李竺姮<span class="u-hide-on-phone">,</span>
+          <span class="thread-entry__author-title person-title txt--normal">營運總監</span>
+        </strong>
+
+    </header>
+
+    <div class="formatted_content">
+      <div>拿掉吧。<br>補充：這個狀況不只活動現場，還來有自長輩使用者，回饋給意見領袖，意見領袖特別轉知的。   各方都很投入幫忙哩。   <br>提醒一下，兩種決策自由度所對應的情況很不同，一個是不影響權益，只是啟動某一項非主要功能時的對應選擇， 一個是參與更大的權益決策。<br> AMY   </div>
+    </div>
+
+
+    <div class="thread-entry__metadata metadata">
+      <small>
+        <span class="thread-entry__metadata__time">
+          <time datetime="2017-09-08T06:38:22Z" data-local="time" data-format="%b %d, %Y at %l:%M %p">Sep 08, 2017 at  6:38 AM</time>
+        </span>
+
+
+          <span class="thread-entry__metadata__recipients">
+              Notified 6 people
+          </span>
+      </small>
+    </div>
+</article>
+
+    </div>
+  </section>
+
+</article>
+
+    </main>
+  
+
+</body>
+</html>
