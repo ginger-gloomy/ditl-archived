@@ -1,0 +1,10 @@
+ACM CHI 人機互動會議, 120,000, 6天, 美國
+ACM UIST 人機互動會議, 80,000, 4天, 加拿大
+Mobile HCI 人機互動會議, 80,000, 4天，維也納
+ACM SIGGRAPH 電腦圖學會議, 100,000, 5天, 美國
+ACM SIGGRAPH Asia 電腦圖學會議, 80,000, 4天, 泰國
+Eurographics 電腦圖學會議, 100,000, 5天, 法國
+Pacific Graphics 電腦圖學會議, 80,000, 4天, 日本
+IEEE Visualization 可視化會議, 120,000, 6天, 美國
+EuroVis 可視化會議, 100,000, 5天, 西班牙
+IEEE PacificVis 可視化會議, 80,000, 4天, 韓國
